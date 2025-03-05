@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      {/* <section className="p-10 text-center">
+      <section className="p-10 text-center">
         <h2 className="text-3xl font-semibold">Skills</h2>
         <div className="flex flex-wrap justify-center gap-6 mt-4">
           <span className="bg-gray-800 px-4 py-2 rounded-lg">Next.js</span>
@@ -54,7 +54,7 @@ export default function Home() {
           <span className="bg-gray-800 px-4 py-2 rounded-lg">Tailwind CSS</span>
           <span className="bg-gray-800 px-4 py-2 rounded-lg">Spring Boot</span>
         </div>
-      </section> */}
+      </section>
       <section id="skills" className="pt-40">
         <SkillsComponent />
       </section>
